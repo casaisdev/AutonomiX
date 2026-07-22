@@ -34,10 +34,10 @@ Network requirement: Base Sepolia (`base-sepolia`). All instructions assume this
 
 ## Live Links
 
-- Contract Address: `0x6633006c0825a55aC8dEEB66a2d1C5D1e9283725`
-  - Explorer: https://sepolia.basescan.org/address/0x6633006c0825a55aC8dEEB66a2d1C5D1e9283725
-- Live API: https://api-autonomix.casaislabs.com
-- Live Demo (Frontend): https://autonomix.casaislabs.com
+- Contract Address: `0xF6FBF9F230235cA59D57a53288407B505DE247E4`
+  - Explorer: https://sepolia.basescan.org/address/0xF6FBF9F230235cA59D57a53288407B505DE247E4
+- Live API: https://api-autonomix.martincasais.com
+- Live Demo (Frontend): https://autonomix.martincasais.com
 
 ## Flows
 
