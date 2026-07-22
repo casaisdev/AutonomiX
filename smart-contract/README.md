@@ -135,8 +135,8 @@ Record the deployed contract address and set `AUTONOMIX_AGENT_ADDRESS` in `.env`
 ## Deployment Status
 
 - Network: Base Sepolia (`base-sepolia`)
-- Contract Address: `0x6633006c0825a55aC8dEEB66a2d1C5D1e9283725`
-- Explorer: https://sepolia.basescan.org/address/0x6633006c0825a55aC8dEEB66a2d1C5D1e9283725
+- Contract Address: `0xF6FBF9F230235cA59D57a53288407B505DE247E4`
+- Explorer: https://sepolia.basescan.org/address/0xF6FBF9F230235cA59D57a53288407B505DE247E4
 
 ## Register New Agents
 
