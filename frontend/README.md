@@ -26,7 +26,7 @@ This frontend renders a list of agents, their metadata and images, and integrate
 
 ## Live Site
 
-Production deployment: https://autonomix.casaislabs.com
+Production deployment: https://autonomix.martincasais.com
 
 ## Repository Navigation
 
@@ -55,7 +55,7 @@ Create `frontend/.env` with:
 ```
 VITE_NETWORK=base-sepolia
 VITE_RPC_URL=https://sepolia.base.org
-VITE_CONTRACT_ADDRESS=0x584f13dF99D690D5Bf6393CCA75BC701E528556d
+VITE_CONTRACT_ADDRESS=0xF6FBF9F230235cA59D57a53288407B505DE247E4
 VITE_BACKEND_URL=http://localhost:3000
 ```
 
@@ -93,8 +93,8 @@ npm run preview
 ## Contract Integration (Base Sepolia)
 
 - Network: Base Sepolia (`base-sepolia`)
-- Contract Address: `0x584f13dF99D690D5Bf6393CCA75BC701E528556d`
-- Explorer: https://sepolia.basescan.org/address/0x584f13dF99D690D5Bf6393CCA75BC701E528556d
+- Contract Address: `0xF6FBF9F230235cA59D57a53288407B505DE247E4`
+- Explorer: https://sepolia.basescan.org/address/0xF6FBF9F230235cA59D57a53288407B505DE247E4
 
 The UI reads from the contract using the configured RPC and address and displays metadata fetched from the backend.
 
