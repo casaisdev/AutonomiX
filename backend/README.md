@@ -31,7 +31,7 @@ This backend powers AutonomiX by:
 
 ## Live API
 
-Production deployment: https://api-autonomix.casaislabs.com
+Production deployment: https://api-autonomix.martincasais.com
 
 ## Repository Navigation
 
@@ -63,7 +63,7 @@ Populate `backend/.env` (see `src/config.ts` for authoritative names):
 PORT=3000
 FRONTEND_ORIGIN=http://localhost:5173
 RPC_URL=https://sepolia.base.org
-AGENT_ADDRESS=0x6633006c0825a55aC8dEEB66a2d1C5D1e9283725
+AGENT_ADDRESS=0xF6FBF9F230235cA59D57a53288407B505DE247E4
 
 # Admin signer (optional; required for reputation updates)
 ADMIN_PRIVATE_KEY=0x...
@@ -183,9 +183,9 @@ Example ERC‑721 metadata (served at `/metadata/agent1.json`):
 {
   "name": "AutonomiX Agent #1",
   "description": "Autonomous agent with on‑chain identity and reputation.",
-  "image": "https://api-autonomix.casaislabs.com/images/agent1.png",
+  "image": "https://api-autonomix.martincasais.com/images/agent1.png",
   "attributes": [
-    { "trait_type": "endpoint", "value": "https://api-autonomix.casaislabs.com/api/agent1" },
+    { "trait_type": "endpoint", "value": "https://api-autonomix.martincasais.com/api/agent1" },
     { "trait_type": "reputation", "value": 42 }
   ]
 }
@@ -220,8 +220,8 @@ Example error response (misconfiguration):
 ## Contract Integration (Base Sepolia)
 
 - Network: Base Sepolia (`base-sepolia`)
-- Contract Address: `0x584f13dF99D690D5Bf6393CCA75BC701E528556d`
-- Explorer: https://sepolia.basescan.org/address/0x584f13dF99D690D5Bf6393CCA75BC701E528556d
+- Contract Address: `0xF6FBF9F230235cA59D57a53288407B505DE247E4`
+- Explorer: https://sepolia.basescan.org/address/0xF6FBF9F230235cA59D57a53288407B505DE247E4
 
 The backend uses `ethers` to read from and (optionally) write to the ERC‑8004 contract (ABI loaded from `src/abi/AutonomiXAgent.json`).
 
